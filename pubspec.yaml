@@ -1,0 +1,23 @@
+name: kid_farm_app
+description: "A personalized farm game for kids"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_tts: ^3.8.5
+  speech_to_text: ^6.6.0
+  shared_preferences: ^2.2.2
+  flutter_animate: ^4.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
